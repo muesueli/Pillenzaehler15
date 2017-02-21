@@ -1,0 +1,51 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['timeline'], 'language': 'de'});
+      google.charts.setOnLoadCallback(drawChart);
+
+             function drawChart() {
+              var container = document.getElementById('diagramm');
+              var chart = new google.visualization.Timeline(container);
+              var dataTable = new google.visualization.DataTable();
+              dataTable.addColumn({ type: 'string', id: 'Nummer' });
+              dataTable.addColumn({ type: 'string', id: 'Name' });
+              dataTable.addColumn({ type: 'string', role: 'tooltip' });
+              dataTable.addColumn({ type: 'date', id: 'Start' });
+              dataTable.addColumn({ type: 'date', id: 'End' });
+              dataTable.addRows([
+    [ '1', 'Andreafol Tabl 90 Stk', '100 Tage bis 04.02', new Date(2016, 12, 21), new Date(2017, 04, 02) ],
+    [ '2', 'Aspirin Cardio 100 Tabl 100 mg 90 Stk', '81 Tage bis 03.14', new Date(2016, 12, 21), new Date(2017, 03, 14) ],
+    [ '2', 'Kauf: 1 Packung', '83 Tage bis 06.06', new Date(2017, 03, 15), new Date(2017, 06, 06) ],
+    [ '3', 'Fluvastatin Mepha Kaps 40 mg 98 Stk', '83 Tage bis 03.16', new Date(2016, 12, 21), new Date(2017, 03, 16) ],
+    [ '3', 'Kauf: 1 Packung', '85 Tage bis 06.10', new Date(2017, 03, 17), new Date(2017, 06, 10) ],
+    [ '4', 'Metformin Mepha Lactabs 500 mg 50 Stk', '65 Tage bis 02.26', new Date(2016, 12, 21), new Date(2017, 02, 26) ],
+    [ '4', 'Kauf: 1 Packung', '67 Tage bis 05.05', new Date(2017, 02, 27), new Date(2017, 05, 05) ],
+    [ '5', 'Metoprolol Mepha ZOK 50 Depottabs 50 mg 100 Stk', '36 Tage bis 01.28', new Date(2016, 12, 21), new Date(2017, 01, 28) ],
+    [ '5', 'Kauf: 2 Packungen', '38 Tage bis 03.08', new Date(2017, 01, 29), new Date(2017, 03, 08) ],
+    [ '6', 'Vi-De 3 Tropfen 4500 E/ml 10 ml', '88 Tage bis 03.21', new Date(2016, 12, 21), new Date(2017, 03, 21) ],
+    [ '7', 'Zanidip Filmtabl 20 mg 98 Stk', '127 Tage bis 04.29', new Date(2016, 12, 21), new Date(2017, 04, 29) ]]);
+var options = {
+    timeline: { colorByRowLabel: true }
+};
+
+function selectHandler() {
+   chart.getSelection()[0];
+   if (selectedItem) {
+      var topping = dataTable.getValue(selectedItem.row, 0);
+      Android.showToast('loeli');
+   }
+}
+   google.visualization.events.addListener(chart, 'select', selectHandler);
+   chart.draw(dataTable, options);
+}    </script>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+<body>
+<div>
+    <input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+</div>
+<div id="diagramm" style="height: 200px;"></div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content="de-ch" http-equiv="Content-Language"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <title>Arbeitsweise</title>
+    <style type="text/css">
+        .auto-style1 {
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+<p class="auto-style1">Welche und wie viel von meinen Medikamenten müssen beschafft werden?
+    Abhängig von folgenden Argumenten wird das berechnet:
+</p>
+<ul>
+    <li class="auto-style1">Vorrat im Lager</li>
+    <li class="auto-style1">Dosen gemäss Arztrezept</li>
+    <li class="auto-style1">Planungs-Zeitraum (beliebig wählbar)</li>
+    <li class="auto-style1">Packungsgrössen</li>
+</ul>
+<p class="auto-style1">Die App bietet dem Benutzer eine grosse
+    Flexibilität bezüglich Datenänderungen, sorgt aber auch für eine hohe Datenintegrität.</p>
+<p class="auto-style1">Die App setzt Google-Zeitplan-Diagramme ein. Das setzt eine
+    Internetverbindung voraus.
+    Diagrammdaten
+    werden über das Netz gesendet, jedoch nicht in der Cloud gespeichert.
+</p>
+<h3 class="auto-style1">Grund-Bildschirm</h3>
+<p class="auto-style1">
+    <img alt="bild1" src="screen.png" width="100%" class="auto-style1"/><span
+        class="auto-style1">
+	</span>
+</p>
+
+<h4 class="auto-style1">Plaungszeitraum</h4>
+Die App plant für den Zeitraum zwischen dem Datum 'Lager' und 'Plan'.
+<p class="auto-style1">
+</p>
+
+<h4 class="auto-style1">Farben der Balken</h4>
+<ul>
+    <li class="auto-style1">Gelb: Medikament abgesetzt, Einnahme nach
+        Bedarf oder Einnahme nicht täglich. Die App bewirtschaftet das Medikament nicht.
+    </li>
+    <li class="auto-style1">Hellblau: Lager gross genug für Planzeitraum.</li>
+    <li class="auto-style1">Sonst (weder gelb noch hellblau): Medikament muss gekauft werden. Von diesen erhält jedes eine besondere Farbe - die gleiche im Zeitplan-Diagramm
+        wie in der Medikamentenliste, damit man sofort sieht, was zusammen gehört.</li>
+</ul>
+<h4 class="auto-style1">Kolonne 'Kauf' der Medidaten</h4>
+<p class="auto-style1">
+    Das sind Knöpfe: tippen, um einen Kauf zu erfassen.
+</p>
+<h4 class="auto-style1">Kolonne 'Lager' der Medidaten</h4>
+<p class="auto-style1">
+    Das sind Eingabefelder: tippen, um den Lagerbestand zu erfassen.
+</p>
+
+
+<h3 class="auto-style1">Planungs-Diagramm</h3>
+<p class="auto-style1">
+    Das ist ein Zeitplan-Diagramm. Es zeigt, wie weit die Lagervorräte inkl. notwendigen
+    Beschaffungen reichen. Das Antippen eines Balkens zeigt Planungsdetails.
+</p>
+<p class="auto-style1">
+    <img alt="bild2" src="diagramm.png" width="100%" class="auto-style1"/><span
+        class="auto-style1">
+	</span>
+</p>
+
+<h3 class="auto-style1">Mutationen</h3>
+<p class="auto-style1">
+    Die folgenden Operationen unterhalten die Medikamentendaten.
+</p>
+<p class="auto-style1">
+    <img alt="bild3" src="mutationen.png" width="100%" class="auto-style1"/><span
+        class="auto-style1">
+	</span>
+</p>
+<ul>
+    <li class="auto-style1">Ändern: Medi-Name und -Zusatz müssen komplett und exakt erfasst werden,
+        1:1 mit dem Rezept, um sie für die Apotheke eindeutig zu machen. Die Packungsgrösse muss
+        grösser 0 sein.
+    </li>
+    <li class="auto-style1">Einnehmen nach Bedarf und Medikament absetzen:
+        die App macht keine Berechnungen mehr.
+        Reaktivierung: Medikament kopieren und auf den neuen Stand bringen, damit keine veraltete
+        Angaben übernommen werden.
+    </li>
+    <li class="auto-style1">Kopieren: nur der Name und der Zusatz werden übernommen.</li>
+</ul>
+
+<h3 class="auto-style1">Listen, Auswertungen</h3>
+<ul>
+    <li class="auto-style1">Einkaufsliste: Medikamente, die in der
+        Apotheke gekauft werden müssen.
+    </li>
+    <li class="auto-style1">Kostenliste: tägliche und jährliche Kosten pro Medikament
+        sowie aller Medikamente zusammen - für die Wahl der Krankenkassen-Franchise.
+    </li>
+    <li class="auto-style1">Das Kontrollblatt zeigt den aktuellen Lagerbestand und den
+        voraussichtlichen Bestand am Ende des Planungszeitraumes. Damit kann die
+        Einnahme der Medikamente kontrolliert werden.
+    </li>
+</ul>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+{
+  "bestandCal": {
+    "day": 12,
+    "month": 1,
+    "year": 2016
+  },
+  "einkaufliste": "Einkaufsliste\n\n 1 ___  test Dosis 1,5/Tag - 98 Kaps\n\n 1 ___  test Dosis 3/Tag - 100 Depottabs\n\n 1 ___  konsum \u003e bestand - 90 Tabl\n\n 1 ___  konsum \u003d bestand - 90 Tabl\n\n 1 ___  kauf naechste Woche, Reserve 0 - 90 Tabl\n\n 1 ___  gueltig 5 tage ab in, bis out def - 90 Tabl\n\n 1 ___  gueltig 5 tage ab in, bis out undef - 90 Tabl\n\n 1 ___  gueltig 5 tage ab out, bis in - 90 Tabl\n\n 1 ___  gueltig 7 tage ab out, bis out def - 90 Tabl\n\n 1 ___  gueltig 7 tage ab out, bis out def - 90 Tabl\n\n",
+  "planBisCal": {
+    "day": 14,
+    "month": 2,
+    "year": 2016
+  },
+  "kostenliste": "",
+  "mediFarbenString": [
+    "\u0027#dc3912\u0027",
+    "\u0027#ffb74d\u0027",
+    "\u0027#4db6ac\u0027",
+    "\u0027#ba68c8\u0027",
+    "\u0027#7986cb\u0027",
+    "\u0027#ff8a65\u0027",
+    "\u0027#ffd54f\u0027",
+    "\u0027#64b5f6\u0027",
+    "\u0027#a1887f\u0027",
+    "\u0027#3366cc\u0027"
+  ],
+  "mediFarbeStringDefault": "\u0027#64b5f6\u0027",
+  "mediFarbenInt": [
+    -2344686,
+    -18611,
+    -11684180,
+    -4560696,
+    -8812853,
+    -30107,
+    -10929,
+    -5319295,
+    -6190977,
+    -13408564
+  ],
+  "mediFarbeIntDefault": -10177034,
+  "farbenCount": 5,
+  "selektion": -1
+}

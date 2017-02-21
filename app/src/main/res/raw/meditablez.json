@@ -1,0 +1,843 @@
+[
+  {
+    "nummerTimelines": "1",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 1,
+      "year": -999999999
+    },
+    "datumGueltigBisCal": {
+      "day": 15,
+      "month": 1,
+      "year": 2016
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "aaa Aspirin",
+    "specs": "beendet",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 0,
+    "preis": 0.0
+  },
+
+  {
+    "nummerTimelines": "2",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 1,
+      "year": -999999999
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "aaa Aspirin",
+    "specs": "genug",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 1,
+    "preis": 0.0
+  },
+
+  {
+    "nummerTimelines": "3",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 1,
+      "year": -999999999
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "aaa Aspirin",
+    "specs": "zu wenig",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 5.0,
+    "farbIdx": 2,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "4",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 1,
+      "year": -999999999
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "aaa Aspirin",
+    "specs": "nichts",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 0.0,
+    "farbIdx": 3,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "1",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 1,
+      "year": -999999999
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "dauer undef - undef",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 0.0,
+    "farbIdx": 3,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "1",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 1,
+      "year": -999999999
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "dauer undef - undef",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 0,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "2",
+    "datumGueltigAbCal": {
+      "day": 13,
+      "month": 1,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "dauer ab 13",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 1,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "3",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 1,
+      "year": -999999999
+    },
+    "datumGueltigBisCal": {
+      "day": 14,
+      "month": 1,
+      "year": 2016
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "dauer bis 14",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 2,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "4",
+    "datumGueltigAbCal": {
+      "day": 12,
+      "month": 1,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 14,
+      "month": 1,
+      "year": 2016
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "dauer von-bis 12-14",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 3,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "5",
+    "datumGueltigAbCal": {
+      "day": 13,
+      "month": 1,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 14,
+      "month": 1,
+      "year": 2016
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "dauer von-bis 13-14",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 4,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "6",
+    "datumGueltigAbCal": {
+      "day": 13,
+      "month": 1,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 15,
+      "month": 1,
+      "year": 2016
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "dauer von-bis 13-15",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 5,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "7",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 1,
+      "year": -999999999
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "name": "Dosis andere",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 6,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 5,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "name": "andere gueltig 1.5. - undef",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 7,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "8",
+    "datumGueltigAbCal": {
+      "day": 14,
+      "month": 1,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 17,
+      "month": 1,
+      "year": 2016
+    },
+    "dosis": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "gueltig 14.6 - 17.6",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 8,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "9",
+    "datumGueltigAbCal": {
+      "day": 14,
+      "month": 1,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 25,
+      "month": 1,
+      "year": 2016
+    },
+    "dosis": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "gueltig 14.1. - 25.1.",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 9,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "10",
+    "datumGueltigAbCal": {
+      "day": 14,
+      "month": 5,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "gueltig 14.5. - undef",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 0,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "11",
+    "datumGueltigAbCal": {
+      "day": 15,
+      "month": 1,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "gueltig 15.1. - undef",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 1,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "",
+    "datumGueltigAbCal": {
+      "day": 22,
+      "month": 1,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "gueltig 22.1. - undef",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 2,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 1,
+      "year": -999999999
+    },
+    "datumGueltigBisCal": {
+      "day": 25,
+      "month": 12,
+      "year": 2015
+    },
+    "dosis": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "gueltig undef. - 25.12.2015",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 3,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "14",
+    "datumGueltigAbCal": {
+      "day": 5,
+      "month": 2,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 17,
+      "month": 2,
+      "year": 2016
+    },
+    "dosis": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "gueltig 5.2. - 17.2",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 4,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "15",
+    "datumGueltigAbCal": {
+      "day": 5,
+      "month": 2,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 26,
+      "month": 2,
+      "year": 2016
+    },
+    "dosis": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "gueltig 5.2. - 26.2.",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 5,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "16",
+    "datumGueltigAbCal": {
+      "day": 5,
+      "month": 2,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "gueltig 5.2. - undef",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 6,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "",
+    "datumGueltigAbCal": {
+      "day": 5,
+      "month": 2,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 25,
+      "month": 7,
+      "year": 2016
+    },
+    "dosis": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "gueltig 5.2. - 25.7",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 7,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "36",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 12,
+      "year": 2015
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "test Dosis 1/Tag",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 8,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "37",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 12,
+      "year": 2015
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      2.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "test Dosis 3/Tag",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 50.0,
+    "farbIdx": 9,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "38",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 1,
+      "year": -999999999
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      10.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "test Tropfen",
+    "specs": ":::",
+    "inhalt": 450,
+    "kaufPackungen": 0,
+    "einsatz": 0,
+    "bestandIst": 450.0,
+    "farbIdx": 0,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "",
+    "datumGueltigAbCal": {
+      "day": 15,
+      "month": 1,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 16,
+      "month": 1,
+      "year": 2016
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "beiBedarf a",
+    "specs": ":::",
+    "inhalt": 100,
+    "kaufPackungen": 0,
+    "einsatz": 1,
+    "bestandIst": 50.0,
+    "farbIdx": 1,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "",
+    "datumGueltigAbCal": {
+      "day": 15,
+      "month": 1,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 16,
+      "month": 1,
+      "year": 2016
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "name": "beiBedarf",
+    "specs": ":::",
+    "inhalt": 100,
+    "kaufPackungen": 0,
+    "einsatz": 1,
+    "bestandIst": 50.0,
+    "farbIdx": 2,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "",
+    "datumGueltigAbCal": {
+      "day": 1,
+      "month": 1,
+      "year": -999999999
+    },
+    "datumGueltigBisCal": {
+      "day": 31,
+      "month": 12,
+      "year": 999999999
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "name": "gueltig undef - undef",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 2,
+    "bestandIst": 0.0,
+    "farbIdx": 3,
+    "preis": 0.0
+  },
+  {
+    "nummerTimelines": "",
+    "datumGueltigAbCal": {
+      "day": 14,
+      "month": 6,
+      "year": 2016
+    },
+    "datumGueltigBisCal": {
+      "day": 15,
+      "month": 6,
+      "year": 2016
+    },
+    "dosis": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0
+    ],
+    "name": "gueltig 1.5. - undef",
+    "specs": ":::",
+    "inhalt": 90,
+    "kaufPackungen": 0,
+    "einsatz": 2,
+    "bestandIst": 0.0,
+    "farbIdx": 4,
+    "preis": 0.0
+  }
+]
