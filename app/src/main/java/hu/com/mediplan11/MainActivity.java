@@ -526,7 +526,7 @@ public class MainActivity extends AppCompatActivity {
                     InputStream in_sp = res.openRawResource(mediparmsId); // R.raw.mediparms
                     byte[] bp = new byte[in_sp.available()];
                     in_sp.read(bp);
-                    saveParms(new String(bp)); // saveSample
+                    saveParms(new String(bp));
                     // parms.printParms("printParms saveSample");
 
                     int meditableId = this.getResources().getIdentifier(rawMediList, "raw", getPackageName());
