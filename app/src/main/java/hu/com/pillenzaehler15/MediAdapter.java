@@ -34,7 +34,7 @@ public class MediAdapter extends RecyclerView.Adapter<MediAdapter.ViewHolder> {
             public void onClick(View v) {
                 mainActivity.pendingMedi = holder.medi;
                 for (Medi medi : mainActivity.mediList) {
-                    // System.out.println ("********** bind " + mainActivity.pendingMedi.name + " " + mainActivity.pendingMedi);
+
                 }
                 mainActivity.proc_mediMutation ();
             }
