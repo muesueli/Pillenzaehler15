@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:orientation="horizontal">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/medi"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/modNametEt"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="6dp"
+        android:cursorVisible="true"
+        android:imeOptions="actionNext"
+        android:inputType="text|textNoSuggestions"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/modEinsatzTv"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="24dp"
+        android:text="@string/einsatz"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/modEinsatzSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="6dp"
+        android:entries="@array/einsatzArray" />
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,137 @@
+<li class="auto-style1" Bestand Start</li>
+    <li class="auto-style1" + Einkauf</li>
+    <li class="auto-style1" &equals; Summe</li>
+    <li class="auto-style1" - Sollverbrauchtum</li>Kontrolle 25 Tage
+    <li class="auto-style1" &equals; Sollbestand</li>  von 28.04.18 - 22.05.18
+    <li class="auto-style1" - Bestand Ende</li>
+    <li class="auto-style1" &equals; Differenz</li>Andreafol
+
+  135.00 Bestand Start
+    0.00 + Einkauf
+  135.00 = Summe
+    6.00 - Sollverbrauch
+           17.05.18 - 22.05.18
+           6 Tage * 1.00
+  129.00 = Sollbestand
+  130.00 - Bestand Ende
+    1.00 = Differenz
+
+Aspirin Cardio 100
+
+   40.00 Bestand Start
+    0.00 + Einkauf
+   40.00 = Summe
+   25.00 - Sollverbrauch
+           25 Tage * 1.00
+   15.00 = Sollbestand
+   24.00 - Bestand Ende
+    9.00 = Differenz
+
+Fluvavastatin 80 mg
+
+   73.00 Bestand Start
+    0.00 + Einkauf
+   73.00 = Summe
+   25.00 - Sollverbrauch
+           25 Tage * 1.00
+   48.00 = Sollbestand
+   53.00 - Bestand Ende
+    5.00 = Differenz
+
+Metoprolol 50 mg
+
+   49.00 Bestand Start
+    0.00 + Einkauf
+   49.00 = Summe
+   75.00 - Sollverbrauch
+           25 Tage * 3.00
+  -26.00 = Sollbestand ???
+   49.00 - Bestand Ende
+   75.00 = Differenz ???
+
+Vi-De 3
+
+  200.00 Bestand Start
+    0.00 + Einkauf
+  200.00 = Summe
+  250.00 - Sollverbrauch
+           25 Tage * 10.00
+  -50.00 = Sollbestand ???
+  200.00 - Bestand Ende
+  250.00 = Differenz ???
+
+Vitalux Plus
+         Dosis = 0
+
+Zanidip
+         Datum ausser Bereich: 01.01.17 - 01.04.18
+
+
+
+
+
+Check 25 days
+  from 04/28/18 - 05/22/18
+
+Andreafol
+
+  135.00 stock start
+    0.00 + purchase
+  135.00 = sum
+    6.00 - target consumption
+           05/17/18 - 05/22/18
+           6 days * 1.00
+  129.00 = target stock
+  130.00 - stock end
+    1.00 = difference
+
+Aspirin Cardio 100
+
+   40.00 stock start
+    0.00 + purchase
+   40.00 = sum
+   25.00 - target consumption
+           25 days * 1.00
+   15.00 = target stock
+   24.00 - stock end
+    9.00 = difference
+
+Fluvavastatin 80 mg
+
+   73.00 stock start
+    0.00 + purchase
+   73.00 = sum
+   25.00 - target consumption
+           25 days * 1.00
+   48.00 = target stock
+   53.00 - stock end
+    5.00 = difference
+
+Metoprolol 50 mg
+
+   49.00 stock start
+    0.00 + purchase
+   49.00 = sum
+   75.00 - target consumption
+           25 days * 3.00
+  -26.00 = target stock ???
+   49.00 - stock end
+   75.00 = difference ???
+
+Vi-De 3
+
+  200.00 stock start
+    0.00 + purchase
+  200.00 = sum
+  250.00 - target consumption
+           25 days * 10.00
+  -50.00 = target stock ???
+  200.00 - stock end
+  250.00 = difference ???
+
+Vitalux Plus
+         Dose = 0
+
+Zanidip
+         date out of range: 01/01/17 - 04/01/18
+

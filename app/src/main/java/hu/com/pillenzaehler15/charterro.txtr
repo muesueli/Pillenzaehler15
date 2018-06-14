@@ -1,0 +1,17 @@
+mankoString = "58"
+bedarfString = "58"
+bedarfTage = 29
+bisCalGo = {org.threeten.bp.LocalDate@8206} "2018-06-04"
+slu_VonString = {java.lang.String[2]@8955}
+slu_BisString = {java.lang.String[2]@8957}
+slp_VonString = {java.lang.String[2]@8958}
+slp_BisString = {java.lang.String[2]@8959} 
+
+bestandIstTage = 0
+
+abCalGo = {org.threeten.bp.LocalDate@8961} "2018-05-07"
+
+slp_BisString[1] = "05/06"
+slp_BisString[0] = "new Date(2018, 4, 6)"
+slu_VonString[0] = "new Date(2018, 4, 7)"
+slp_VonString[1] = "05/07"
