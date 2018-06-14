@@ -1,0 +1,69 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart','timeline'], 'language': 'de'});
+      google.charts.setOnLoadCallback(drawChart);
+
+             function drawChart() {
+              var container = document.getElementById('diagramm');
+              var chart = new google.visualization.Timeline(container);
+              var dataTable = new google.visualization.DataTable();
+              dataTable.addColumn({ type: 'string', id: 'Nummer' });
+              dataTable.addColumn({ type: 'string', id: 'Name' });
+              dataTable.addColumn({ type: 'string', role: 'tooltip','p': {'html': true}});
+              dataTable.addColumn({ type: 'date', id: 'Start' });
+              dataTable.addColumn({ type: 'date', id: 'End' });
+              dataTable.addRows([
+    [ '--- ', 'Plan: 07.05. - 08.06.', 'Dauer: 33 Tage', new Date(new Date(2018, 4, 7)), new Date(new Date(2018, 5, 8)) ],
+    [ '1', 'Fastum', 'Lager 1.0 &rarr; 1 Tage 07.05. - 07.05.<br/>+ 1 Packung  &rarr; 50 Tage 08.05. - 26.06.', new Date(new Date(2018, 4, 7)), new Date(new Date(2018, 5, 26)) ],
+    [ '2', 'Metoprolol 50 mg', 'Einnahme bis 23.05.<br/>Rest 34 &rarr;  11 Tage', new Date(new Date(2018, 4, 16)), new Date(new Date(2018, 4, 23)) ],
+    [ '3', 'Rusovastatin 10 mg', 'Lager 15.0 &rarr; 15 Tage 07.05. - 21.05.<br/>+ 1 Packung  &rarr; 100 Tage 22.05. - 29.08.', new Date(new Date(2018, 4, 7)), new Date(new Date(2018, 7, 29)) ],
+    [ '4', 'Vi-De 3', 'Lager 165 &rarr; 33 Tage 07.05. - 08.06.<br/>Rest   35 &rarr; 7 Tage 09.06. - 15.06.', new Date(new Date(2018, 4, 7)), new Date(new Date(2018, 5, 15)) ],
+    [ '5', 'Zanidip', 'Lager 33 &rarr; 33 Tage 07.05. - 08.06.<br/>Rest   7 &rarr; 7 Tage 09.06. - 15.06.', new Date(new Date(2018, 4, 7)), new Date(new Date(2018, 5, 15)) ],
+]);
+var options = {
+timeline: { colorByRowLabel: true },
+colors: ['#000000','#aed581', '#64b5f6', '#3366cc', '#64b5f6', '#64b5f6']
+};
+
+google.visualization.events.addListener(chart, 'error', myErrorHandler);
+function myErrorHandler(){
+alert('error');
+}
+
+/*
+google.visualization.events.addListener(chart, 'ready', myReadyHandler);
+function myReadyHandler(){
+alert('ready');
+}
+
+WebAppInterface
+function selectHandler() {
+
+var selectedItem = chart.getSelection()[0];
+if (selectedItem) {
+Huweb.timelineClick(dataTable.getValue(selectedItem.row, 0));
+}
+}
+
+google.visualization.events.addListener(chart, 'select', selectHandler);
+*/
+
+chart.draw(dataTable, options);
+}
+</script>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+<body>
+
+<!--
+<div>
+    <input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+</div>
+-->
+
+
+<div id="diagramm" style="height: 341px;"></div>
+</body>
+</html>

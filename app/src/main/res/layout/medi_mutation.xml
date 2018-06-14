@@ -4,59 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <include layout="@layout/mutationheader" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="6dp"
-        android:layout_marginRight="6dp"
-        android:orientation="horizontal">
-
-        <TextView
-            style="@style/TextAppearance.AppCompat.Medium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medi:"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/modNametEt"
-            style="@style/TextAppearance.AppCompat.Medium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:layout_marginLeft="6dp"
-            android:cursorVisible="true"
-            android:imeOptions="actionDone"
-            android:inputType="text"
-            android:textStyle="bold" />
-
-        <TextView
-            style="@style/TextAppearance.AppCompat.Medium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Zusatz:"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/modSpecsEt"
-            style="@style/TextAppearance.AppCompat.Medium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:layout_marginLeft="6dp"
-            android:cursorVisible="true"
-            android:imeOptions="actionDone"
-            android:inputType="text"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/modEinsatzTv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:text="einsatz" />
-    </LinearLayout>
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -79,7 +28,7 @@
                 android:layout_column="0"
                 android:layout_marginRight="6dp"
                 android:layout_row="1"
-                android:text="Preis/Pkg" />
+                android:text="@string/preis_pkg" />
 
             <TextView
                 style="@style/TextAppearance.AppCompat.Medium"
@@ -88,21 +37,23 @@
                 android:layout_column="0"
                 android:layout_marginRight="6dp"
                 android:layout_row="0"
-                android:text="Packung" />
+                android:text="@string/packung" />
 
             <EditText
                 android:id="@+id/modInhaltEt"
-                style="@style/TextAppearance.AppCompat.Small"
+                style="@style/TextAppearance.AppCompat.Medium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="1"
                 android:layout_marginRight="6dp"
                 android:layout_row="0"
                 android:cursorVisible="true"
-                android:hint="Inhalt"
-                android:imeOptions="actionDone"
+                android:hint="@string/inhalt"
+                android:imeOptions="actionNext"
                 android:inputType="number"
-                android:selectAllOnFocus="true" />
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:textStyle="italic" />
 
             <TextView
                 style="@style/TextAppearance.AppCompat.Medium"
@@ -114,16 +65,7 @@
                 android:layout_marginRight="6dp"
                 android:layout_row="0"
                 android:focusable="true"
-                android:text="Dosis" />
-
-            <TextView
-                style="@style/TextAppearance.AppCompat.Medium"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_column="0"
-                android:layout_marginRight="6dp"
-                android:layout_row="2"
-                android:text="Bestand Ist" />
+                android:text="@string/dosis" />
 
             <TextView
                 style="@style/TextAppearance.AppCompat.Medium"
@@ -133,8 +75,9 @@
                 android:layout_gravity="right"
                 android:layout_marginBottom="6dp"
                 android:layout_marginRight="6dp"
-                android:layout_row="3"
-                android:text="gültig ab" />
+                android:layout_row="2"
+                android:text="@string/gueltig_ab"
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/modDatumGueltigAbTv"
@@ -143,7 +86,7 @@
                 android:layout_column="1"
                 android:layout_marginBottom="6dp"
                 android:layout_marginRight="6dp"
-                android:layout_row="3" />
+                android:layout_row="2" />
 
             <TextView
                 style="@style/TextAppearance.AppCompat.Medium"
@@ -153,8 +96,9 @@
                 android:layout_gravity="right"
                 android:layout_marginBottom="6dp"
                 android:layout_marginRight="6dp"
-                android:layout_row="4"
-                android:text="bis" />
+                android:layout_row="3"
+                android:text="@string/bis"
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/modDatumGueltigBisTv"
@@ -163,7 +107,7 @@
                 android:layout_column="1"
                 android:layout_marginBottom="6dp"
                 android:layout_marginRight="6dp"
-                android:layout_row="4" />
+                android:layout_row="3" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -172,19 +116,20 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="6dp"
                 android:layout_row="1"
-                android:text="morgens" />
+                android:text="@string/morgens" />
 
             <EditText
                 android:id="@+id/modDosisMoEt"
-                style="@style/TextAppearance.AppCompat.Small"
+                style="@style/TextAppearance.AppCompat.Medium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="3"
                 android:layout_marginRight="6dp"
                 android:layout_row="1"
                 android:cursorVisible="true"
-                android:imeOptions="actionDone"
-                android:inputType="numberDecimal"
+                android:imeOptions="actionNext"
+                android:inputType="number|numberDecimal"
+                android:maxLines="1"
                 android:selectAllOnFocus="true" />
 
             <TextView
@@ -194,19 +139,20 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="6dp"
                 android:layout_row="2"
-                android:text="mittags" />
+                android:text="@string/mittags" />
 
             <EditText
                 android:id="@+id/modDosisMiEt"
-                style="@style/TextAppearance.AppCompat.Small"
+                style="@style/TextAppearance.AppCompat.Medium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="3"
                 android:layout_marginRight="6dp"
                 android:layout_row="2"
                 android:cursorVisible="true"
-                android:imeOptions="actionDone"
-                android:inputType="numberDecimal"
+                android:imeOptions="actionNext"
+                android:inputType="number|numberDecimal"
+                android:maxLines="1"
                 android:selectAllOnFocus="true" />
 
             <TextView
@@ -216,19 +162,20 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="6dp"
                 android:layout_row="3"
-                android:text="abends" />
+                android:text="@string/abends" />
 
             <EditText
                 android:id="@+id/modDosisAbEt"
-                style="@style/TextAppearance.AppCompat.Small"
+                style="@style/TextAppearance.AppCompat.Medium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="3"
                 android:layout_marginRight="6dp"
                 android:layout_row="3"
                 android:cursorVisible="true"
-                android:imeOptions="actionDone"
-                android:inputType="numberDecimal"
+                android:imeOptions="actionNext"
+                android:inputType="number|numberDecimal"
+                android:maxLines="1"
                 android:selectAllOnFocus="true" />
 
             <TextView
@@ -238,19 +185,20 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="6dp"
                 android:layout_row="4"
-                android:text="nachts" />
+                android:text="@string/nachts" />
 
             <EditText
                 android:id="@+id/modDosisNaEt"
-                style="@style/TextAppearance.AppCompat.Small"
+                style="@style/TextAppearance.AppCompat.Medium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="3"
                 android:layout_marginRight="6dp"
                 android:layout_row="4"
                 android:cursorVisible="true"
-                android:imeOptions="actionDone"
-                android:inputType="numberDecimal"
+                android:imeOptions="actionNext"
+                android:inputType="number|numberDecimal"
+                android:maxLines="1"
                 android:selectAllOnFocus="true" />
 
             <TextView
@@ -260,57 +208,40 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="6dp"
                 android:layout_row="5"
-                android:text="andere" />
+                android:text="@string/andere" />
 
             <EditText
                 android:id="@+id/modDosisAndEt"
-                style="@style/TextAppearance.AppCompat.Small"
+                style="@style/TextAppearance.AppCompat.Medium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="3"
                 android:layout_marginRight="6dp"
                 android:layout_row="5"
                 android:cursorVisible="true"
-                android:imeOptions="actionDone"
-                android:inputType="numberDecimal"
-                android:selectAllOnFocus="true" />
-
-            <EditText
-                android:id="@+id/modBestandIstEt"
-                style="@style/TextAppearance.AppCompat.Small"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_column="1"
-                android:layout_marginRight="6dp"
-                android:layout_row="2"
-                android:cursorVisible="true"
-                android:imeOptions="actionDone"
-                android:inputType="numberDecimal"
+                android:imeOptions="actionNext"
+                android:inputType="number|numberDecimal"
+                android:maxLines="1"
                 android:selectAllOnFocus="true" />
 
             <EditText
                 android:id="@+id/modPreisEt"
-                style="@style/TextAppearance.AppCompat.Small"
+                style="@style/TextAppearance.AppCompat.Medium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="1"
                 android:layout_marginRight="6dp"
                 android:layout_row="1"
                 android:cursorVisible="true"
-                android:hint="Fr."
-                android:imeOptions="actionDone"
+                android:hint="@string/CHF"
+                android:imeOptions="actionNext"
                 android:inputType="numberDecimal"
-                android:selectAllOnFocus="true" />
+                android:maxLines="1"
+                android:selectAllOnFocus="true"
+                android:textStyle="italic" />
 
         </GridLayout>
     </ScrollView>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:text="! ! !   Planung anpassen   ! ! !"
-        android:textStyle="bold" />
 
 
 </LinearLayout>

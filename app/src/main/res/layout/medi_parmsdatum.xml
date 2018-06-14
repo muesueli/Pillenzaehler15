@@ -8,13 +8,19 @@
     <DatePicker
         android:id="@+id/parmsDatumDp"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="6dp"
         android:layout_weight="8"
-        android:calendarViewShown="true"
-        android:clickable="true"
-        android:spinnersShown="true" />
+        android:clickable="true" />
+
+    <CheckBox
+        android:id="@+id/reminderCb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:checked="true"
+        android:text="@string/erinnerung" />
 
 
 </LinearLayout>

@@ -1,29 +1,98 @@
 <resources>
-    <string name="app_name">Pillen-Zähler</string>
+    <string name="app_name">Pillenzähler 18</string>
 
     <string name="back">Zurück</string>
     <string name="insert">Neu</string>
     <string name="change">Ändern</string>
-    <string name="copy">Kopieren</string>
-    <string name="paste">Einfügen</string>
     <string name="remove">Löschen</string>
     <string name="actions">Aktionen</string>
+    <string name="help">Hilfe</string>
 
-    <string name="save">Speichern</string>
-    <string name="cancel">Cancel</string>
-    <string name="ok">OK</string>
     <string name="msgYes">Ja</string>
     <string name="msgNo">Nein</string>
 
-    <string name="error">Fehler</string>
-    <string name="warning">Warning</string>
+    <string name="einnehmen_nach_bedarf">Einnahme nach Bedarf</string>
+    <string name="absetzen">Absetzen</string>
+    <string name="kontrolle">Kontrolle</string>
+    <string name="einkaufsliste">Einkaufsliste</string>
+    <string name="erinnerung">Erinnerung 7 Tage vor Ablauf des Planes</string>
+    <string name="einsatz">Einsatz</string>
+    <string name="packung">Packung</string>
+    <string name="inhalt">Inhalt</string>
+    <string name="dosis">Dosis</string>
+    <string name="gueltig_ab">gültig ab</string>
+    <string name="bis">bis</string>
+    <string name="mittags">mittags</string>
+    <string name="morgens">morgens</string>
+    <string name="abends">abends</string>
+    <string name="nachts">nachts</string>
+    <string name="andere">andere</string>
+    <string name="heute">Heute:</string>
+    <string name="plan">Plan:</string>
+    <string name="medi">Medi:</string>
+    <string name="kosten_rechnen">Kosten rechnen</string>
+    <string name="lager">Lager</string>
+    <string name="preis_pkg">Preis/Pkg.</string>
+    <string name="internet">anschalten!</string>
+    <string name="tage">Tage</string>
+    <string name="dauer">Dauer:</string>
+    <string name="einnahme_bis">Einnahme bis</string>
+    <string name="rest">Rest</string>
+    <string name="packungen">Packungen</string>
 
-    <string name="buylist">Einkausfsliste</string>
+    <string name="intern_not_avalable">Internet nicht verfügbar</string>
+    <string name="CHF">CHF</string>
+    <string name="plandatum">Plandatum</string>
+    <string name="samplemsg">Laden?</string>
+    <string name="sharechecklist">Kontrollliste wohin?</string>
+    <string name="shareshoppinglist">Einkaufsliste wohin?</string>
+    <string name="sharecostlist">Kostenliste wohin?</string>
+    <string name="sampletitle">Beispieldaten</string>
+    <string name="kontrollpunkt">Kontrolldatum</string>
+    <string name="setzen">setzen</string>
+    <string name="lager_kontrollieren">Medi-Lager kontrollieren!</string>
+    <string name="kauf_packungen_fuer">"Kauf: Packungen für "</string>
+    <string name="costs">Kosten</string>
 
-    <string name="settings">Einstellungen</string>
+    <string-array
+        name="einsatzArray">
+        <item>"täglich"</item>"",
+        <item>"bei Bedarf"</item>"",
+        <item>"abgesetzt"</item>"",
+    </string-array>
+    <string-array
+        name="einsatzArrayName">
+        <item>""</item>"",
+        <item>" (bei Bedarf)"</item>"",
+        <item>" (abgesetzt)"</item>"",
+    </string-array>
 
-    <string name="help">Hilfe</string>
-    <string name="helpuser">Bedienungsanleitung</string>
+    <string name="fehler_gueltig_ab">Fehler: gültig ab</string>
+    <string name="fehler_gueltig_bis">Fehler: gültig bis</string>
+    <string name="datum_gueltig_bis_setzen">Datum gültig bis setzen</string>
+    <string name="datum_gueltig_ab_setzen">Datum gültig ab setzen</string>
+    <string name="fehler_gueltig_ab_groesser">Fehler gültig ab grösser gültig bis</string>
+    <string name="fehler_gueltig_bis_kleiner">"Fehler gültig bis vor gültig ab "</string>
+    <string name="datum_ausser_bereich">Datum ausser Bereich</string>
+    <string name="bereich">Datum-Bereich</string>
+    <string name="einkauf">Einkauf</string>
+    <string name="summe">Summe</string>
+    <string name="sollverbrauch">Sollverbrauch</string>
+    <string name="sollbestand">Sollbestand</string>
+    <string name="istbestand">Istbestand</string>
+    <string name="differenz">Differenz</string>
+    <string name="recalc">rechnen</string>
+    <string name="taegl">tögli.</string>
+    <string name="woech">wöch.</string>
+    <string name="notiz">notiz</string>
+    <string name="von">von</string>
+    <string name="share">Teilen</string>
+    <string name="bestand_start">Bestand Start</string>
+    <string name="bestand_end">Bestand Ende</string>
+    <string name="andereTxt">Einnahme zu undefinierten Zeiten: </string>
+    <string name="fehler_packung_0">Inhalt Packung = 0</string>
+    <string name="packung1">Packung</string>
+
 
 </resources>
 

@@ -19,100 +19,149 @@
 
 <body>
 
-<p class="auto-style1">Welche und wie viel von meinen Medikamenten müssen beschafft werden?
-    Abhängig von folgenden Argumenten wird das berechnet:
+<h3 class="auto-style1">Zweck der App</h3>
+<p class="auto-style1">Welche und wie viel von meinen Medikamenten müssen beschafft werden?</p>
+<p class="auto-style1">Wurden die Medikamente regelmässig nach Rezept eingenommen?</p>
+
+<h3 class="auto-style1">Arbeitsweise</h3>
+
+<p class="auto-style1">0) 1 Woche vor Ablauf der Planungsperiode erhält der Benutzer eine
+    Benachrichtigung,
+    eine Aufforderung, seine Medikamente zu verwalten.
+<p class="auto-style1">1) Die Erfassung des Tagesinventars ist Grundlage für Kontrolle und
+    Planung.
 </p>
+
+<p class="auto-style1">
+    <img alt="bild0" src="principles01D.jpg" width="100%" class="auto-style1"/><span
+        class="auto-style1">
+   </span>
+</p>
+
+<h3 class="auto-style1">Kontrollieren</h3>
+<p class="auto-style1">
+    2) Die Kontrolle wird so berechnet:<br>
+</p>
+
+<p class="auto-style1">
+    Bestand Start<br>
+    + Einkauf<br>
+    = Summe<br>
+    - Sollverbrauch<br>
+    = Sollbestand<br>
+    - Bestand Ende<br>
+    = Differenz
+</p>
+
+<p class="auto-style1">
+    Unterschiedliche Tageszeiten der Inventare des Kontrollpunk/Heute können
+    Differenzen von 1 Tagesdosen verursachen.
+</p>
+
+<p class="auto-style1">
+    Auslösung der Kontrolle: durch den Knopf rechts vom Medi-Namen für ein einzelnes Medikament oder
+    durch das Menu
+    für eine Liste aller Medikamente.
+</p>
+
+<p class="auto-style1">
+    3) Kontrollpunkt setzen: die heutigen Istbestände werden mit dem Tagesdatum abgespeichert.
+</p>
+
+
+<h3 class="auto-style1">Lager verwalten</h3>
+<p class="auto-style1">
+    4) Planen: die notwendigen Einkäufe werden berechnet abhängig von
+</p>
+
 <ul>
     <li class="auto-style1">Vorrat im Lager</li>
     <li class="auto-style1">Dosen gemäss Arztrezept</li>
-    <li class="auto-style1">Planungs-Zeitraum (beliebig wählbar)</li>
+    <li class="auto-style1">Planungs-Endtermin (beliebig wählbar)</li>
     <li class="auto-style1">Packungsgrössen</li>
 </ul>
-<p class="auto-style1">Die App bietet dem Benutzer eine grosse
-    Flexibilität bezüglich Datenänderungen, sorgt aber auch für eine hohe Datenintegrität.</p>
-<p class="auto-style1">Die App setzt Google-Zeitplan-Diagramme ein. Das setzt eine
-    Internetverbindung voraus.
-    Diagrammdaten
-    werden über das Netz gesendet, jedoch nicht in der Cloud gespeichert.
+
+<p class="auto-style1">
+    5) Einkauf: er muss verbucht werden, damit ein Sollbestand der Zukunft berechnet werden kann.
 </p>
+
+<p class="auto-style1">
+    Die Zeit für Wiederbeschaffungen muss eingerechnet werden. Wenn die Apotheke alle 4 Wochen
+    aufgesucht werden soll, wird ein Bedarf von 5 Wochen geplant.
+</p>
+
 <h3 class="auto-style1">Grund-Bildschirm</h3>
 <p class="auto-style1">
-    <img alt="bild1" src="screen.png" width="100%" class="auto-style1"/><span
+    <img alt="bild1" src="pillenzaehler01D.png" width="100%" class="auto-style1"/><span
         class="auto-style1">
-	</span>
+   </span>
 </p>
 
-<h4 class="auto-style1">Plaungszeitraum</h4>
-Die App plant für den Zeitraum zwischen dem Datum 'Lager' und 'Plan'.
 <p class="auto-style1">
+    Jedes aktivierte Medikament erhält eine besondere Farbe - die gleiche im Zeitplan-Diagramm
+    wie in der Medikamentenliste, damit man sofort sieht, was zusammen gehört.
+    Gelb: die App bewirtschaftet das Medikament nicht, weil es noch nicht einzunehmen oder abgesetzt
+    ist;
+    nur nach Bedarf eingenommen wird; und wenn die Einnahme nicht täglich ist.
 </p>
 
-<h4 class="auto-style1">Farben der Balken</h4>
-<ul>
-    <li class="auto-style1">Gelb: Medikament abgesetzt, Einnahme nach
-        Bedarf oder Einnahme nicht täglich. Die App bewirtschaftet das Medikament nicht.
-    </li>
-    <li class="auto-style1">Hellblau: Lager gross genug für Planzeitraum.</li>
-    <li class="auto-style1">Sonst (weder gelb noch hellblau): Medikament muss gekauft werden. Von diesen erhält jedes eine besondere Farbe - die gleiche im Zeitplan-Diagramm
-        wie in der Medikamentenliste, damit man sofort sieht, was zusammen gehört.</li>
-</ul>
-<h4 class="auto-style1">Kolonne 'Kauf' der Medidaten</h4>
+<h3 class="auto-style1">Diagramm Vorräte und Beschaffungen</h3>
 <p class="auto-style1">
-    Das sind Knöpfe: tippen, um einen Kauf zu erfassen.
-</p>
-<h4 class="auto-style1">Kolonne 'Lager' der Medidaten</h4>
-<p class="auto-style1">
-    Das sind Eingabefelder: tippen, um den Lagerbestand zu erfassen.
-</p>
-
-
-<h3 class="auto-style1">Planungs-Diagramm</h3>
-<p class="auto-style1">
-    Das ist ein Zeitplan-Diagramm. Es zeigt, wie weit die Lagervorräte inkl. notwendigen
+    Das ist ein Zeitplan-Diagramm. Es zeigt, wie lange die Lagervorräte inkl. notwendigen
     Beschaffungen reichen. Das Antippen eines Balkens zeigt Planungsdetails.
 </p>
 <p class="auto-style1">
-    <img alt="bild2" src="diagramm.png" width="100%" class="auto-style1"/><span
+    <img alt="bild2" src="diagrammD.png" width="100%" class="auto-style1"/><span
         class="auto-style1">
-	</span>
+   </span>
 </p>
 
 <h3 class="auto-style1">Mutationen</h3>
+
 <p class="auto-style1">
-    Die folgenden Operationen unterhalten die Medikamentendaten.
+    Tippen auf den Medi-Namen zeigt den Mutations-Bildschirm.
+    Die Packungsgrösse muss grösser 0 sein.
 </p>
+
 <p class="auto-style1">
-    <img alt="bild3" src="mutationen.png" width="100%" class="auto-style1"/><span
+    Das Datum "gültig ab" muss erfasst werden, damit ein Medikament
+    in die Verwaltung der App kommt.
+    Die Packungsgrösse muss grösser 0 sein.
+</p>
+
+<p class="auto-style1">
+    <img alt="bild3" src="mutD.png" width="100%" class="auto-style1"/><span
         class="auto-style1">
-	</span>
+   </span>
 </p>
-<ul>
-    <li class="auto-style1">Ändern: Medi-Name und -Zusatz müssen komplett und exakt erfasst werden,
-        1:1 mit dem Rezept, um sie für die Apotheke eindeutig zu machen. Die Packungsgrösse muss
-        grösser 0 sein.
-    </li>
-    <li class="auto-style1">Einnehmen nach Bedarf und Medikament absetzen:
-        die App macht keine Berechnungen mehr.
-        Reaktivierung: Medikament kopieren und auf den neuen Stand bringen, damit keine veraltete
-        Angaben übernommen werden.
-    </li>
-    <li class="auto-style1">Kopieren: nur der Name und der Zusatz werden übernommen.</li>
-</ul>
 
 <h3 class="auto-style1">Listen, Auswertungen</h3>
 <ul>
+    <li class="auto-style1">Einnahmekontrolle: weist Ist- und Soll-Einnahme wie oben beschrieben
+        aus.
+    </li>
     <li class="auto-style1">Einkaufsliste: Medikamente, die in der
         Apotheke gekauft werden müssen.
     </li>
     <li class="auto-style1">Kostenliste: tägliche und jährliche Kosten pro Medikament
         sowie aller Medikamente zusammen - für die Wahl der Krankenkassen-Franchise.
     </li>
-    <li class="auto-style1">Das Kontrollblatt zeigt den aktuellen Lagerbestand und den
-        voraussichtlichen Bestand am Ende des Planungszeitraumes. Damit kann die
-        Einnahme der Medikamente kontrolliert werden.
-    </li>
 </ul>
+<p class="auto-style1">
+    Mit "Teilen" können die Listen einer anderen App übergeben werden. Zum Drucken,
+    E-Mail, Aufbewahren.
+</p>
 
+<h3 class="auto-style1">Nutzungsbedingungen und Datenschutz</h3>
+
+<p class="auto-style1">Der Benutzer ist verantwortlich für korrekte Daten.
+    Für Folgeschäden aus der Verwendung der App wird jede Haftung abgelehnt.
+</p>
+
+<p class="auto-style1">Die App setzt Google-Zeitplan-Diagramme ein. Das setzt eine
+    Internetverbindung voraus. Diagrammdaten werden über das Netz gesendet,
+    jedoch nicht in der Cloud gespeichert.
+</p>
 </body>
 
 </html>

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:focusable="true"
     android:focusableInTouchMode="true">
 
     <TextView
-        android:id="@+id/seq"
+        android:id="@+id/seqTv"
         style="@style/TextAppearance.AppCompat.Small"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -28,43 +27,25 @@
         android:layout_marginRight="6dp"
         android:layout_weight="10"
         android:background="@color/table_accent"
-        android:clickable="true"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:maxLines="1"
         android:paddingBottom="6dp"
         android:paddingTop="6dp"
-        android:text="mehr Aktionen: hier tippen"
+        android:scrollHorizontally="true"
         android:textColor="@color/table_primary_text"
         android:textStyle="italic" />
 
-    <TextView
-        android:id="@+id/packungTv"
-        style="@style/TextAppearance.AppCompat.Small"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_weight="2"
-        android:maxLines="1"
-        android:text="50"
-        android:textAlignment="center"
-        android:textColor="@color/table_primary_text" />
-
+<!--
     <Button
-        android:id="@+id/plusButton"
+        android:id="@+id/kontrollBt"
         style="@style/TextAppearance.AppCompat.Small"
         android:layout_width="0dp"
         android:layout_height="36dp"
         android:layout_marginRight="6dp"
         android:layout_weight="2"
-        android:text="+ 1"
-        android:textAlignment="center"
-        android:background="@color/table_primary_light"
         android:textColor="@color/table_primary_text"
         android:textStyle="italic" />
+-->
 
-    <EditText
+    <TextView
         android:id="@+id/bestand_istEt"
         style="@style/TextAppearance.AppCompat.Small"
         android:layout_width="0dp"
@@ -72,14 +53,10 @@
         android:layout_marginBottom="6dp"
         android:layout_marginRight="6dp"
         android:layout_weight="3"
-        android:background="@color/table_primary_light"
-        android:textColor="@color/table_primary_text"
-        android:imeOptions="actionDone"
-        android:inputType="numberDecimal"
-        android:maxLines="1"
-        android:selectAllOnFocus="true"
+        android:background="#cfd8dc"
         android:text="0"
         android:textAlignment="center"
+        android:textColor="@color/table_primary_text"
         android:textStyle="italic" />
 
 </TableRow>

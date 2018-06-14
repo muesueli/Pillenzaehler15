@@ -1,70 +1,44 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
+    tools:context="hu.com.pillenzaehler15.MainActivity">
 
     <item
         android:id="@+id/actions"
         android:title="@string/actions"
         app:showAsAction="ifRoom|withText">
+
         <menu>
 
             <item
                 android:id="@+id/insert"
                 android:title="@string/insert"
-                app:showAsAction="ifRoom|withText"
-                android:icon="@drawable/ic_add_circle_outline_black_24dp" />
-
-            <item
-                android:id="@+id/kaufliste"
-                android:title="Einkaufsliste"
-                app:showAsAction="ifRoom|withText"
-                android:icon="@drawable/ic_share_black_24dp" />
-
+                app:showAsAction="ifRoom|withText" />
 
             <item
                 android:id="@+id/kontrolle"
-                android:title="Kontrollblatt"
-                app:showAsAction="ifRoom|withText"
-                android:icon="@drawable/ic_share_black_24dp" />
+                android:title="@string/kontrolle"
+                app:showAsAction="ifRoom|withText" />
+
+            <item
+                android:id="@+id/kaufliste"
+                android:title="@string/einkaufsliste"
+                app:showAsAction="ifRoom|withText" />
 
             <item
                 android:id="@+id/kosten"
-                android:title="Kosten rechnen"
-                android:icon="@drawable/ic_share_black_24dp" />
+                android:title="@string/kosten_rechnen"
+                app:showAsAction="ifRoom|withText" />
 
         </menu>
 
     </item>
 
     <item
-        android:id="@+id/helpTop"
+        android:id="@+id/help"
         android:title="@string/help"
         app:showAsAction="ifRoom|withText">
-        <menu>
-            <item
-                android:id="@+id/help"
-                android:title="Handbuch"
-                app:showAsAction="ifRoom|withText"
-                android:icon="@drawable/ic_help_outline_black_24dp" />
-
-            <!--
-            <item
-                android:id="@+id/demoe"
-                android:title="Demo English"
-                app:showAsAction="ifRoom|withText" />
-            <item
-                android:id="@+id/demof"
-                android:title="\t- Français"
-                app:showAsAction="ifRoom|withText" />
--->
-            <item
-                android:id="@+id/saveSample"
-                android:title="Beispiel laden"
-                app:showAsAction="ifRoom|withText"
-                android:icon="@drawable/ic_info_outline_black_24dp" />
-
-        </menu>
     </item>
+
 
 </menu>

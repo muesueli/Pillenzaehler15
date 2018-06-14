@@ -1,4 +1,4 @@
-package hu.com.mediplan11;
+package hu.com.pillenzaehler15;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -17,10 +17,10 @@ import static org.junit.Assert.assertEquals;
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
     @Test
-    public void useAppContext() throws Exception {
+    public void useAppContext() {
         // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
+        Context appContext = InstrumentationRegistry.getTargetContext ();
 
-        assertEquals("hu.com.mediplan11", appContext.getPackageName());
+        assertEquals ("hu.com.pillenzaehler15", appContext.getPackageName ());
     }
 }

@@ -1,4 +1,4 @@
-package hu.com.mediplan11;
+package hu.com.pillenzaehler15;
 
 import org.junit.Test;
 
@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect() throws Exception {
+    public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
 }

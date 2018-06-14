@@ -1,29 +1,98 @@
 <resources>
-    <string name="app_name">Pillen-Zähler</string>
+    <string name="app_name">Pill Counter 18</string>
 
-    <string name="back">Zurück</string>
-    <string name="insert">Neu</string>
-    <string name="change">Ändern</string>
-    <string name="copy">Kopieren</string>
-    <string name="paste">Einfügen</string>
-    <string name="remove">Löschen</string>
-    <string name="actions">Aktionen</string>
+    <string name="back">Back</string>
+    <string name="insert">New</string>
+    <string name="change">Change</string>
+    <string name="remove">Delete</string>
+    <string name="actions">Actions</string>
 
-    <string name="save">Speichern</string>
-    <string name="cancel">Cancel</string>
-    <string name="ok">OK</string>
-    <string name="msgYes">Ja</string>
-    <string name="msgNo">Nein</string>
+    <string name="msgYes">Yes</string>
+    <string name="msgNo">No</string>
 
-    <string name="error">Fehler</string>
-    <string name="warning">Warning</string>
+    <string name="help">Help</string>
+    <string name="einnehmen_nach_bedarf">Take as required</string>
+    <string name="kontrolle">Check</string>
+    <string name="einkaufsliste">Shopping List</string>
+    <string name="kosten_rechnen">Calculate costs</string>
+    <string name="einsatz">Use</string>
+    <string name="preis_pkg">Price/Pkg</string>
+    <string name="packung">Package</string>
+    <string name="packung1">package</string>
+    <string name="inhalt">Content</string>
+    <string name="lager">stock</string>
+    <string name="mittags">noon</string>
+    <string name="morgens">morning</string>
+    <string name="abends">evening</string>
+    <string name="taegl">daily</string>
+    <string name="woech">weekly</string>
+    <string name="nachts">night</string>
+    <string name="andere">other</string>
+    <string name="andereTxt">intake at undefined times: </string>
+    <string name="heute">Today:</string>
+    <string name="plan">Plan:</string>
+    <string name="medi">Drug:</string>
+    <string name="absetzen">Stop ingestion</string>
+    <string name="dosis">Dose</string>
+    <string name="erinnerung">Reminder 7 days before plan expires</string>
+    <string name="CHF">CHF</string>
+    <string name="gueltig_ab">valid from</string>
+    <string name="von">from</string>
+    <string name="bis">until</string>
+    <string name="internet">switch it on!</string>
+    <string name="intern_not_avalable">Internet not available</string>
+    <string name="tage">days</string>
+    <string name="einnahme_bis">Ingestion until</string>
+    <string name="rest">rest</string>
+    <string name="packungen">packages</string>
+    <string name="plandatum">Plan Date</string>
+    <string name="sharecostlist">Cost List: where?</string>
+    <string name="shareshoppinglist">Shopping List: where?</string>
+    <string name="samplemsg">Load?</string>
+    <string name="sharechecklist">Check List: where?</string>
+    <string name="sampletitle">Sample Data</string>
+    <string name="kontrollpunkt">Checkpoint</string>
+    <string name="setzen">set</string>
+    <string name="lager_kontrollieren">check drug stock!</string>
+    <string name="kauf_packungen_fuer">"Purchase: packages for "</string>
+    <string name="costs">Costs</string>
 
-    <string name="buylist">Einkausfsliste</string>
+    <string name="dauer">duration</string>
+    <string name="fehler_gueltig_ab">error: valid from</string>
+    <string name="fehler_gueltig_ab_groesser">date valid from after until</string>
+    <string name="fehler_gueltig_bis_kleiner">checkdate valid until before from</string>
+    <string name="fehler_gueltig_bis">error: valid to</string>
+    <string name="bereich">rechnen launch, screen date range</string>
+    <string name="datum_ausser_bereich">date out of range</string>
+    <string name="fehler_packung_0">package content = 0</string>
 
-    <string name="settings">Einstellungen</string>
+    <string name="datum_gueltig_bis_setzen">set date valid to</string>
+    <string name="einkauf">purchase</string>
+    <string name="summe">sum</string>
+    <string name="sollverbrauch">target consumption</string>
+    <string name="sollbestand">target stock</string>
+    <string name="istbestand">actual stock</string>
+    <string name="differenz">difference</string>
+    <string name="recalc">compute</string>
+    <string name="share">share</string>
+    <string name="notiz">note</string>
+    <string name="bestand_start">stock start</string>
+    <string name="bestand_end">stock end</string>
 
-    <string name="help">Hilfe</string>
-    <string name="helpuser">Bedienungsanleitung</string>
+    <string-array
+        name="einsatzArray">
+        <item>"daily"</item>"",
+        <item>"as required"</item>"",
+        <item>"stopped"</item>"",
+    </string-array>
+
+    <string-array
+        name="einsatzArrayName">
+        <item>""</item>"",
+        <item>" (as required)"</item>"",
+        <item>" (stopped)"</item>"",
+    </string-array>
+    <string name="datum_gueltig_ab_setzen">set date valid from</string>
 
 </resources>
 
